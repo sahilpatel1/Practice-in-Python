@@ -1,0 +1,44 @@
+1. Graph Algorithms
+
+-Breadth First Search (BFS)
+-Depth First Search (DFS)
+-Shortest Path from source to all vertices Dijkstra
+-Shortest Path from every vertex to every other vertex Floyd Warshall
+-Minimum Spanning tree Prim
+-Minimum Spanning tree Kruskal
+-Topological Sort
+-Johnson's algorithm
+-Articulation Points (or Cut Vertices) in a graph
+-Bridges in a graph
+
+2. Dynamic Programming (process to solve optimization problems)
+(is applicable when subproblems are not independent)
+(solve every subsubproblem only once and store the answer
+for use when it reappears)
+
+Note: A divide-and-conquer approach will do more work
+than necessary
+
+-Longest Common Subsequence
+-Longest Increasing Subsequence
+-Edit Distance
+-Minimum Partition
+-Ways to Cover a Distance
+-Longest Path in Matrix
+-Subset Sum problem
+-Optimal Strategy for a Game
+-0-1 Knapsack Problem
+-Assembly Line scheduling
+
+3. Searching and Sorting
+
+-Binary Search 
+-Quick Sort
+-Merge Sort
+-Order Statistics
+-KMP algorithm
+-Rabin Karp
+-Z's algorithm
+-Aho Corasick String matching
+-Counting Sort
+-Manacher's algorithm
