@@ -17,7 +17,7 @@ def two_sum_dict(array, target):
     complements = {}
     for i in range(len(array)):
         if array[i] in complements:
-            return sorted([i, complements[array[i]]])
+            return [complements[array[i]], i] if i > complements[array[i]] else [i, complements[array[i]]]
         else:
             complements[target - array[i]] = i
 print(two_sum_dict(f, 14))
