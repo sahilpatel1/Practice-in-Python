@@ -26,7 +26,7 @@ Example:
 Principal: $80,000
 Interest: 4 means 4 % (percent)
 Term: 3 (in years)
-Parameters should be given in this order: loan(principal, rate, years)
+Arguments should be given in this order: loan(principal, rate, years)
 so, the function input looks like this: loan(80000,4,3)
 """
 loan(1000000,4,2)
